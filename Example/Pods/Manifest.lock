@@ -1,0 +1,65 @@
+PODS:
+  - NativeWithRNDemo (0.1.0)
+  - React/ART (0.41.2):
+    - React/Core
+  - React/Core (0.41.2):
+    - React/cxxreact
+    - React/yoga
+  - React/cxxreact (0.41.2):
+    - React/jschelpers
+  - React/jschelpers (0.41.2)
+  - React/RCTActionSheet (0.41.2):
+    - React/Core
+  - React/RCTAdSupport (0.41.2):
+    - React/Core
+  - React/RCTGeolocation (0.41.2):
+    - React/Core
+  - React/RCTImage (0.41.2):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTLinkingIOS (0.41.2):
+    - React/Core
+  - React/RCTNetwork (0.41.2):
+    - React/Core
+  - React/RCTPushNotification (0.41.2):
+    - React/Core
+  - React/RCTSettings (0.41.2):
+    - React/Core
+  - React/RCTText (0.41.2):
+    - React/Core
+  - React/RCTVibration (0.41.2):
+    - React/Core
+  - React/RCTWebSocket (0.41.2):
+    - React/Core
+  - React/yoga (0.41.2)
+
+DEPENDENCIES:
+  - NativeWithRNDemo (from `../`)
+  - React/ART (from `../ReactNativeDemo/node_modules/react-native`)
+  - React/Core (from `../ReactNativeDemo/node_modules/react-native`)
+  - React/RCTActionSheet (from `../ReactNativeDemo/node_modules/react-native`)
+  - React/RCTAdSupport (from `../ReactNativeDemo/node_modules/react-native`)
+  - React/RCTGeolocation (from `../ReactNativeDemo/node_modules/react-native`)
+  - React/RCTImage (from `../ReactNativeDemo/node_modules/react-native`)
+  - React/RCTLinkingIOS (from `../ReactNativeDemo/node_modules/react-native`)
+  - React/RCTNetwork (from `../ReactNativeDemo/node_modules/react-native`)
+  - React/RCTPushNotification (from `../ReactNativeDemo/node_modules/react-native`)
+  - React/RCTSettings (from `../ReactNativeDemo/node_modules/react-native`)
+  - React/RCTText (from `../ReactNativeDemo/node_modules/react-native`)
+  - React/RCTVibration (from `../ReactNativeDemo/node_modules/react-native`)
+  - React/RCTWebSocket (from `../ReactNativeDemo/node_modules/react-native`)
+  - React/yoga (from `../ReactNativeDemo/node_modules/react-native`)
+
+EXTERNAL SOURCES:
+  NativeWithRNDemo:
+    :path: "../"
+  React:
+    :path: "../ReactNativeDemo/node_modules/react-native"
+
+SPEC CHECKSUMS:
+  NativeWithRNDemo: 5c87af09153860d7b6d17b67bcedfc24132eec09
+  React: 2b10c07d947dea71c144a33764e9162ed81e3825
+
+PODFILE CHECKSUM: f00a53ce96596b14412ebb15f4b02b0f0e317ea6
+
+COCOAPODS: 1.2.0

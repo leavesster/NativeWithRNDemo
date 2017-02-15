@@ -12,7 +12,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    // Override point for cu/Users/yleaf/Desktop/NativeWithRNDemo/.gitignorestomization after application launch.
     return YES;
 }
 
