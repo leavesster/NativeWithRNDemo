@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F60189FA1320EF6EC5F1CCA /* libPods-NativeWithRNDemo_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B565A69E537FC9D2CF80804 /* libPods-NativeWithRNDemo_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,8 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		B3C0977021A2F13AC109DCA4 /* Pods_NativeWithRNDemo_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15C64EF3F9F4AFDF2812A568 /* Pods_NativeWithRNDemo_Tests.framework */; };
-		EC1224BB5E4BE3FCABABC3F8 /* Pods_NativeWithRNDemo_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47D16AEFC6985438EB63156A /* Pods_NativeWithRNDemo_Example.framework */; };
+		9C6603CC5975080FBB56B2FB /* libPods-NativeWithRNDemo_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C450A05BCE7F9C5745F6156F /* libPods-NativeWithRNDemo_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		15C64EF3F9F4AFDF2812A568 /* Pods_NativeWithRNDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NativeWithRNDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		47D16AEFC6985438EB63156A /* Pods_NativeWithRNDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NativeWithRNDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B565A69E537FC9D2CF80804 /* libPods-NativeWithRNDemo_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NativeWithRNDemo_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BFA9B24F418C36D3C41393F /* NativeWithRNDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NativeWithRNDemo.podspec; path = ../NativeWithRNDemo.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* NativeWithRNDemo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NativeWithRNDemo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,6 +63,7 @@
 		812A46E5895B8D82CEE30D3A /* Pods-NativeWithRNDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeWithRNDemo_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NativeWithRNDemo_Example/Pods-NativeWithRNDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6E4E2DEE7C0FF5DD9B0AFDB /* Pods-NativeWithRNDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeWithRNDemo_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NativeWithRNDemo_Tests/Pods-NativeWithRNDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C450A05BCE7F9C5745F6156F /* libPods-NativeWithRNDemo_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NativeWithRNDemo_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C99C096F2A9B6F94ECFCB344 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DFC208A4C03338B3629AC030 /* Pods-NativeWithRNDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeWithRNDemo_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NativeWithRNDemo_Tests/Pods-NativeWithRNDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		ED0C217A51AC0B9F25F326ED /* Pods-NativeWithRNDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeWithRNDemo_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-NativeWithRNDemo_Example/Pods-NativeWithRNDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				EC1224BB5E4BE3FCABABC3F8 /* Pods_NativeWithRNDemo_Example.framework in Frameworks */,
+				9C6603CC5975080FBB56B2FB /* libPods-NativeWithRNDemo_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				B3C0977021A2F13AC109DCA4 /* Pods_NativeWithRNDemo_Tests.framework in Frameworks */,
+				2F60189FA1320EF6EC5F1CCA /* libPods-NativeWithRNDemo_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				47D16AEFC6985438EB63156A /* Pods_NativeWithRNDemo_Example.framework */,
-				15C64EF3F9F4AFDF2812A568 /* Pods_NativeWithRNDemo_Tests.framework */,
+				C450A05BCE7F9C5745F6156F /* libPods-NativeWithRNDemo_Example.a */,
+				2B565A69E537FC9D2CF80804 /* libPods-NativeWithRNDemo_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

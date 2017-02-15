@@ -1,11 +1,26 @@
-use_frameworks!
+# use_frameworks!
 
 target 'NativeWithRNDemo_Example' do
   pod 'NativeWithRNDemo', :path => '../'
+  pod 'React', :path => ‘../ReactNativeDemo/node_modules/react-native', :subspecs => [
+  'Core',
+  'ART',
+  'RCTActionSheet',
+  'RCTAdSupport',
+  'RCTGeolocation',
+  'RCTImage',
+  'RCTNetwork',
+  'RCTPushNotification',
+  'RCTSettings',
+  'RCTText',
+  'RCTVibration',
+  'RCTWebSocket',
+  'RCTLinkingIOS',
+  'yoga',
+  ]
 
   target 'NativeWithRNDemo_Tests' do
     inherit! :search_paths
 
-    
   end
 end
