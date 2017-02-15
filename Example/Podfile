@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NativeWithRNDemo_Example' do
+  pod 'NativeWithRNDemo', :path => '../'
+
+  target 'NativeWithRNDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
