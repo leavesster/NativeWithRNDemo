@@ -17,9 +17,7 @@ export default class ReactNativeDemo extends Component {
     return (
         <View style={{flex:1, justifyContent:'space-between'}}>
           <View style={{flex:1, flexDirection:'row'}}>
-            <View style={{flex:1, backgroundColor:'turquoise'}}>
-
-            </View>
+            <View style={{flex:1, backgroundColor:'turquoise'}}></View>
             <View style={{flex:1, backgroundColor:'yellowgreen'}}></View>
             <View style={{flex:1, backgroundColor:'thistle'}}></View>
           </View>
